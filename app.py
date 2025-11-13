@@ -192,12 +192,12 @@ def parse_invoice_pdf_bytes(data: bytes, filename: str) -> Optional[Dict[str, An
 # STREAMLIT UI
 # ─────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Invoice Processor – A→Z (Streamlit)",
+    page_title="Silog Invoice Processor – A→Z (Streamlit)",
     page_icon="📄",
     layout="wide",
 )
 
-st.title("📄 Invoice Processor – A→Z")
+st.title("📄 Silog Invoice Processor – A→Z")
 st.caption(
     "Upload freight invoices → Extract Invoice Date, Shipper, Weight, Volume, "
     "Chargeable, Subtotal, Freight Mode & Rate → Download Excel summary."
